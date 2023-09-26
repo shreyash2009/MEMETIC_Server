@@ -36,5 +36,5 @@ mongoose.connect(process.env.MONGO_URI, {
     console.log(error)
 })
 app.get("/", (req, res) => {
-    res.send("HEllo express");
+    res.send("Hi express");
 })
